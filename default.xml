@@ -2,7 +2,7 @@
 <manifest>
 	<remote fetch="https://github.com" name="github.com"/>
 
-	<project name="MontaVista-OpenSourceTechnology/poky.git" remote="github.com" path="layers/poky" revision="master"/>
+	<project name="MontaVista-OpenSourceTechnology/poky.git" remote="github.com" path="layers/poky" revision="master-next"/>
 	<project name="MontaVista-OpenSourceTechnology/meta-openembedded.git" remote="github.com" path="layers/meta-openembedded" revision="master"/>
 	<project name="MontaVista-OpenSourceTechnology/meta-clang.git" remote="github.com" path="layers/meta-clang" revision="master"/>
 	<project name="MontaVista-OpenSourceTechnology/meta-virtualization.git" remote="github.com" path="layers/meta-virtualization" revision="master"/>

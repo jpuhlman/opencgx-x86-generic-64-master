@@ -1,7 +1,7 @@
 pipeline {
     agent any
     triggers {
-        cron('H * * * *')
+        cron('H/2 * * * *')
     }
     environment {
         EMAIL_TO = 'jpuhlman@mvista.com'

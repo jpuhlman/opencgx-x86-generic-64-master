@@ -23,7 +23,7 @@ pipeline {
                         reference: '',
                         trackingSubmodules: false]], 
                         submoduleCfg: [], 
-                        userRemoteConfigs: [[url: '${params.URL}']]
+                        userRemoteConfigs: [[url: '${params.URL}']])
             }
         }
     }

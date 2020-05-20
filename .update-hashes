@@ -12,9 +12,11 @@ pipeline {
     }
     stages {
         stage('Hash Update') {
-            sh '''
-            echo hello
-            '''
+            steps {
+                sh '''
+                echo hello
+                '''
+            }
         }
     }
     post {

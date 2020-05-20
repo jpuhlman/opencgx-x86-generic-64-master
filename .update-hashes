@@ -14,7 +14,7 @@ pipeline {
         stage('Hash Update') {
             steps {
                 checkout([$class: 'GitSCM',
-                    branches: [[name: '*/${env.BRANCH_NAME}'],
+                    branches: [[name: '*/${env.BRANCH_NAME}']],
                         doGenerateSubmoduleConfigurations: true,
                         extensions: [[$class: 'SubmoduleOption',
                         disableSubmodules: false,
